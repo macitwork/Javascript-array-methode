@@ -1,4 +1,4 @@
-import {inventory} from /main.js;
+import {inventory} from "main.js";
 
 const totalStock = inventory.reduce((total, tv) => total + tv.originalStock, 0);
 const totalSold = inventory.reduce((total, tv) => total + tv.sold, 0);

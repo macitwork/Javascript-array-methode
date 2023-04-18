@@ -1,4 +1,18 @@
 
+body {
+	background: #f1f1f1;
+}
+
+/* Links */
+a {
+	color: #0073aa;
+}
+a:hover, a:active, a:focus {
+	color: #0096dd;
+}
+
+
+
 * {
 	box-sizing: border-box;
 	margin: 0;

@@ -1,4 +1,4 @@
-import {inventory} from /main.js;
+import {inventory} from "main.js";
 
 //Tip_: when we want to reduce multiple values from an array to one number or one string, just use here
 //an old trusted for-loop for!
