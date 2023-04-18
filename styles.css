@@ -1,0 +1,114 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+
+	padding-left: 3rem;
+}
+
+h1  {
+	margin: 3rem 0;
+
+}
+
+P {
+	font-size: 1.5rem;
+}
+
+#total-sold {
+	color: #196b19;
+}
+
+#original-stock {
+	color: #2f2fda;
+}
+
+#stock-left {
+	color: #641717;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@font-face{
+	font-family: 'Aileron';
+	font-weight: 400;
+	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Roboto-Regular.ttf);
+}
+@font-face{
+	font-family: 'Aileron';
+	font-weight: 400;
+	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Aileron-Regular.ttf);
+	unicode-range: U+41-5a;
+}
+@font-face{
+	font-family: 'Aileron';
+	font-weight: 400;
+	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Aileron-Regular.ttf);
+	unicode-range: U+61-7a;
+}
+
+@font-face{
+	font-family: 'Aileron';
+	font-weight: 600;
+	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Roboto-Medium.ttf);
+}
+@font-face{
+	font-family: 'Aileron';
+	font-weight: 600;
+	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Aileron-Medium.ttf);
+	unicode-range: U+41-5a;
+}
+@font-face{
+	font-family: 'Aileron';
+	font-weight: 600;
+	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Aileron-Medium.ttf);
+	unicode-range: U+61-7a;
+}
+
+@font-face{
+	font-family: 'Aileron';
+	font-weight: 700;
+	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Roboto-Bold.ttf);
+}
+@font-face{
+	font-family: 'Aileron';
+	font-weight: 700;
+	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Aileron-Bold.ttf);
+	unicode-range: U+41-5a;
+}
+@font-face{
+	font-family: 'Aileron';
+	font-weight: 700;
+	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Aileron-Bold.ttf);
+	unicode-range: U+61-7a;
+}
+
+
+
+.about__container {
+	/* Section backgrounds */
+	--background: #1d35b4;
+	--subtle-background: #eff2ff;
+
+	/* Main text color */
+	--text: #000;
+	--text-light: #fff;
+
+	/* Accent colors: used in header, on special classes. */
+	--accent-1: #1d35b4; /* Link color, credit image overlay */
+	--accent-2: #33f078; /* Accent background */
+
+	/* Navigation colors. */
+	--nav-background: #fff;
+	--nav-border: transparent;
+	--nav-color: var(--text);
+	--nav-current: var(--accent-1);
+
+	--gap: 2rem;
+}

@@ -1,3 +1,4 @@
+//Opdracht 1 - Array Methoden
 // VOORRAAD ARRAY MET TV'S
 const inventory = [
   {
@@ -161,3 +162,36 @@ const inventory = [
     sold: 8,
   },
 ];
+
+//* **Opdracht 1a:** Gebruik een array-methode om een array te maken met alle tv-type namen. Log de uitkomst in de
+//console.
+
+const names = ['4K TV', 'HD smart TV', '4K QLED TV', 'Ultra HD SMART TV', 'The One 4K TV', '4K LED TV', 'Led TV', 'HD TV'];
+console.log(names);
+
+
+
+////* **Opdracht 1b:** Gebruik een array-methode om alle tv's te verzamelen (de hele objecten) die volledig uitverkocht
+//zijn. Log de uitkomst in de console.
+const soldOut = inventory.filter(tv => tv.originalStock === tv.sold);
+ console.log(soldOut);
+
+//Opdracht 1c: Gebruik een array-methode om alle tv's te verzamelen (de hele objecten) die over AmbiLight beschikken. Log de uitkomst in de console.
+
+const inventoryWithAmbiLight = inventory.filter(tv => tv.options.ambiLight);
+console.log(inventoryWithAmbiLight);
+
+
+
+//Opdracht 1d: Schrijf een functie die alle tv's van laagste naar hoogste prijs sorteert.
+// Log de uitkomst in de console.
+
+function sortTvByPriceAscending(tv1, tv2) {
+  return tv1.price - tv2.price;
+}
+
+const inventorySortedByPrice = inventory.sort(sortTvByPriceAscending);
+console.log(inventorySortedByPrice);
+
+
+
