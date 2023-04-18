@@ -30,24 +30,9 @@ P {
 
 
 
-.about__container {
-	/* Section backgrounds */
-	--background: #1d35b4;
-	--subtle-background: #eff2ff;
-
-	/* Main text color */
-	--text: #000;
-	--text-light: #fff;
-
-	/* Accent colors: used in header, on special classes. */
-	--accent-1: #1d35b4; /* Link color, credit image overlay */
-	--accent-2: #33f078; /* Accent background */
-
-	/* Navigation colors. */
-	--nav-background: #fff;
-	--nav-border: transparent;
-	--nav-color: var(--text);
-	--nav-current: var(--accent-1);
+.logo {
+	display: flex;
+	align-self: start ;
 
 	--gap: 2rem;
 }
