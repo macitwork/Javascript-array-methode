@@ -26,68 +26,7 @@ P {
 #stock-left {
 	color: #641717;
 }
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
 
-@font-face{
-	font-family: 'Aileron';
-	font-weight: 400;
-	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Roboto-Regular.ttf);
-}
-@font-face{
-	font-family: 'Aileron';
-	font-weight: 400;
-	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Aileron-Regular.ttf);
-	unicode-range: U+41-5a;
-}
-@font-face{
-	font-family: 'Aileron';
-	font-weight: 400;
-	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Aileron-Regular.ttf);
-	unicode-range: U+61-7a;
-}
-
-@font-face{
-	font-family: 'Aileron';
-	font-weight: 600;
-	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Roboto-Medium.ttf);
-}
-@font-face{
-	font-family: 'Aileron';
-	font-weight: 600;
-	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Aileron-Medium.ttf);
-	unicode-range: U+41-5a;
-}
-@font-face{
-	font-family: 'Aileron';
-	font-weight: 600;
-	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Aileron-Medium.ttf);
-	unicode-range: U+61-7a;
-}
-
-@font-face{
-	font-family: 'Aileron';
-	font-weight: 700;
-	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Roboto-Bold.ttf);
-}
-@font-face{
-	font-family: 'Aileron';
-	font-weight: 700;
-	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Aileron-Bold.ttf);
-	unicode-range: U+41-5a;
-}
-@font-face{
-	font-family: 'Aileron';
-	font-weight: 700;
-	src: url(moz-extension://b968b21a-f2fa-47aa-8d3f-18156412da33/font/Aileron-Bold.ttf);
-	unicode-range: U+61-7a;
-}
 
 
 
